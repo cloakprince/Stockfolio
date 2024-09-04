@@ -8,11 +8,15 @@ import Services from './pages/Services';
 
 const router = createBrowserRouter([
   {
+    path: '/',
+    element: <Home />,
+  },
+  {
     path: '/stockfolio',
     element: <Home />,
   },
   {
-    path: '/about',
+    path: 'about',
     element: <About />,
   },
   {
