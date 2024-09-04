@@ -8,23 +8,23 @@ import Services from './pages/Services';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/stockfolio',
     element: <Home />,
   },
   {
-    path: 'about',
+    path: '/about',
     element: <About />,
   },
   {
-    path: 'contact',
+    path: '/contact',
     element: <Contact />,
   },
   {
-    path: 'services',
+    path: '/services',
     element: <Services />,
   },
   {
-    path: 'dashboard',
+    path: '/dashboard',
     element: <Dashboard />,
   },
 ]);
