@@ -1,10 +1,11 @@
 // src/routes.tsx
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
+import Home from './pages/Register';
+import About from './pages/AboutPage';
 import Contact from './pages/Contact';
-import Dashboard from './pages/Dashboard';
+import Register from './pages/Register';
 import Services from './pages/Services';
+import Signup from './pages/Signup';
 
 const router = createBrowserRouter([
   {
@@ -28,8 +29,12 @@ const router = createBrowserRouter([
     element: <Services />,
   },
   {
-    path: '/dashboard',
-    element: <Dashboard />,
+    path: '/register',
+    element: <Register />,
+  },
+  {
+    path: '/signup',
+    element: <Signup />,
   },
 ]);
 
